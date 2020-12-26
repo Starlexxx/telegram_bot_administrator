@@ -7,7 +7,7 @@ import random
 
 master = 385730505
 logging.basicConfig(format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s', level = logging.INFO)
-updater = Updater(token = '1169911956:AAH2Yci-RHTcFveYAK8ZJDOU6IicBPgUXdo', use_context = True)
+updater = Updater(token = '', use_context = True)
 
 dispatcher = updater.dispatcher
 
